@@ -1,15 +1,23 @@
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 2px;
 }
 
 ::-webkit-scrollbar-track {
+    /* background: #1d4ed8; */
     background: #172554;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1d4ed8;
+    background: #172554;
+    border: 1px solid white;
+    /* background: #1d4ed8; */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #1d4ed8;
+    background: #172554;
+    /* background: #1d4ed8; */
+}
+
+span[data-href]{
+    cursor:pointer;
 }
