@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -12,52 +12,75 @@
 
 <body class="bg-blue-950 p-0 m-0">
     <div id="header"
-        class="pl-12 bg-blue-700 pr-16 flex justify-between items-center border-2 border-solid border-blue-950 py-2">
-        <div id="logo" class="font-sans font-extrabold text-3xl px-2 text-white border-2 border-solid border-blue-700">
+        class="fixed top-0 w-[100%] pl-12 bg-blue-700 pr-16 flex justify-between items-center border-b-[2px] border-solid border-white py-[4px]">
+        <div id="logo" class="font-sans font-extrabold text-xl px-2 text-white border-2 border-solid border-blue-700">
             &lt;devPortfolio&sol;&gt;</div>
         <div id="navbar"
             class="font-bold flex justify-between items-center border-2 border-solid border-blue-700 p-2 w-[600px]">
-            <div id="home" class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">
+            <!-- <div id="home" class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">
                 Home</div>
             <div id="about"
                 class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">About</div>
             <div id="services"
                 class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">Services
             </div>
-            <div id="services"
+            <div id="courses"
                 class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">Courses
             </div>
             <div id="blog" class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">
-                Blog</div>
+                Blog
+            </div> -->
+            <div id="homeLink">
+                <span data-href="#"
+                    class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">Home</span>
+            </div>
+            <div id="aboutLink">
+                <span data-href="#aboutSection"
+                    class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">About</span>
+            </div>
+            <div id="techStackLink">
+                <span data-href="#techStackSection"
+                    class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">TechStack</span>
+            </div>
+            <div id="projectLink">
+                <span data-href="#projectSection"
+                    class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">Projects</span>
+            </div>
+            <div id="contactLink">
+                <span data-href="#contactSection"
+                    class="text-xl font-sans px-2 border-2 border-solid border-blue-700 text-white inline-block">Contact</span>
+            </div>
         </div>
     </div>
     <div id="coverSection"
-        class="border-2 border-solid border-blue-950 py-[50px] px-[200px] pb-4 flex justify-between items-center border-2 border-solid border-blue-950">
+        class="px-2 pt-[100px] border-[1px] border-solid border-blue-950 mt-[20px] mx-[40px] flex justify-center items-center">
         <div id="aboutBox" class="text-white border-2 border-solid border-blue-950 p-4 m-2">
             <div id="hiMessage" class="border-2 border-solid border-blue-950 font-mono font-bold text-[23px]">Hi there👋
                 I am</div>
             <div id="name"
                 class="border-2 border-solid border-blue-950 leading-[70px] pb-[10px] font-mono text-[80px] font-black">
                 Divyanshu</div>
-            <div id="role" class="border-2 border-solid border-blue-950 font-mono text-[35px] font-black">A Passionate
-                WebDesigner💻</div>
+            <div id="role" class="border-2 border-solid border-blue-950 font-mono text-[35px] font-black">An Aspiring
+                Developer💻</div>
             <div id="roleMessage"
                 class="border-2 border-solid border-blue-950 font-mono font-bold text-[23px] w-[440px]">I have been
-                learning web-design since the last 2 months and <br> can give your web-application <br> the aesthetic
-                touch it needs ✨ <br> So let's connect!</div>
-            <div id="contactMeBox"
-                class="font-bold text-[23px] border-[1px] border-solid border-white inline-block px-2 py-2 rounded-[5px] my-4 bg-blue-700">
-                Contact Me!</div>
+                learning frontend development since the past few months and have build some projects to enchance my
+                skills. I can design a nice user interface for your website with my techstack. Let's connect!</div>
+            <div id="contactMeBox">
+                <a target="_blank"
+                    class="font-bold text-[23px] border-[2px] border-solid border-white inline-block px-2 py-2 rounded-[5px] my-4 bg-blue-700 hover:bg-white hover:text-blue-700 transition-all duration-200 active:border-blue-950"
+                    href="mailto:1506divyanshu@gmail.com">Contact Me</a></p>
+            </div>
             <div id="checkMeMessage"
                 class="border-2 border-solid border-blue-950 font-mono font-bold text-[40px] w-[440px]">
                 <!-- <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i> -->
                 <!-- <i class="fa-brands fa-square-github" style="color: #ffffff;"></i> -->
                 <!-- <i class="fa-brands fa-codepen" style="color: #ffffff;"></i> -->
                 <a target="_blank" href="https://www.linkedin.com/in/divyanshu-sahu-383510235/">
-                    <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-linkedin hover:text-blue-500 transition-all duration-200"></i>
                 </a>
                 <a target="_blank" href="https://github.com/divyanshusgit">
-                    <i class="fa-brands fa-square-github"  style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-github hover:text-blue-500 transition-all duration-200"></i>
                 </a>
             </div>
         </div>
@@ -65,42 +88,61 @@
             <img src="./develope3.png" alt="">
         </div>
     </div>
-    <hr class="mx-[40px]">
-    <div id="techStack" class="p-2 my-[30px]">
-        <div id="techStackHeading" class="text-white text-center m-2 font-bold text-[40px] font-sans">
+    <div id="aboutSection"
+        class="px-2 pt-[60px] pb-[20px] border-t-[1px] border-solid border-white my-[20px] mx-[40px]">
+        <div id="aboutSectionHeading" class="text-white text-center m-2 my-4 font-bold text-[50px] font-sans">
+            About
+        </div>
+        <div id="aboutSectionContent"
+            class="px-16 pt-[10px] text-white border-2 border-solid border-blue-950 mb-[30px] text-[23px] font-bold tracking-wide">
+            Hello, I am Divyanshu, a final year BCA student at Dr. C.V. Raman University, Kota, Bilaspur. I am an
+            aspiring developer and have been spending a considerable amount of my time in learning technologies and
+            building small projects to enhance my development skills over the past few months. <br> <br> My current
+            techstack comprises of HTML, CSS, JavaScript, Bootstrap, TailwindCSS and Tailblocks. With this techstack and
+            an obsession to make interfaces more appealing I can built simple, sweet and smooth websites. <br> <br> My
+            projectlist includes 5 small projects (Digital Clock, Stopwatch, BMI Calculator, Age Calculator and ChatGPT's UI Clone) and 2
+            games (Stone Paper Scissor game and Guess The Number game). All these 6 projects have been deployed using
+            github pages and are full responsive. Live links and Source Code links have been mentioned below in the
+            Projects Section.
+        </div>
+    </div>
+    <div id="techStackSection"
+        class="px-2 pt-[60px] pb-[20px] border-t-[1px] border-solid border-white my-[20px] mx-[40px]">
+        <div id="techStackHeading" class="text-white text-center m-2 my-4 font-bold text-[50px] font-sans">
             TechStack
         </div>
-        <div id="techStackBox" class="flex justify-center space-x-16 m-2 p-4">
+        <div id="techStackBox" class="flex justify-center space-x-16 m-2 px-4 pt-8">
             <div id="htmlBox" class="rounded-[5px] flex justify-center items-center w-[150px] h-[150px] bg-white">
                 <img id="htmlImage" src="./htmlImage.png" alt="htmlImage"
-                    class="w-[100px] hover:w-[113px] transition-all duration-100">
+                    class="w-[100px] hover:w-[113px] transition-all duration-200">
             </div>
             <div id="cssBox" class="rounded-[5px] flex justify-center items-center w-[150px] h-[150px] bg-white">
-                <img src="./cssImage.png" alt="htmlImage" class="w-[70px] hover:w-[80px] transition-all duration-100">
+                <img src="./cssImage.png" alt="htmlImage" class="w-[70px] hover:w-[80px] transition-all duration-200">
             </div>
             <div id="jsBox" class="rounded-[5px] flex justify-center items-center w-[150px] h-[150px] bg-white">
                 <img src="./javascriptImage.png" alt="htmlImage"
-                    class="w-[80px] hover:w-[95px] transition-all duration-100">
+                    class="w-[80px] hover:w-[95px] transition-all duration-200">
             </div>
             <div id="tailwindcssBox"
                 class="rounded-[5px] flex justify-center items-center w-[150px] h-[150px] bg-white">
                 <img src="./tailwindImage.png" alt="htmlImage"
-                    class="w-[85px] hover:w-[105px] transition-all duration-100">
+                    class="w-[85px] hover:w-[105px] transition-all duration-200">
             </div>
             <div id="bootstrapBox" class="rounded-[5px] flex justify-center items-center w-[150px] h-[150px] bg-white">
                 <img src="./bootstrapImage.png" alt="htmlImage"
-                    class="w-[90px] hover:w-[105px] transition-all duration-100">
+                    class="w-[90px] hover:w-[105px] transition-all duration-200">
             </div>
             <div id="tailblocksBox" class="rounded-[5px] flex justify-center items-center w-[150px] h-[150px] bg-white">
                 <img src="./tailblocksImage.png" alt="htmlImage"
-                    class="w-[75px] hover:w-[90px] transition-all duration-100">
+                    class="w-[75px] hover:w-[90px] transition-all duration-200">
             </div>
         </div>
     </div>
-    <hr class="mx-[40px]">
-    <div id="projectSection" class="border-2 border-solid border-blue-950 p-2 m-8">
+    <br>
+    <div id="projectSection"
+        class="px-2 pt-[60px] pb-[20px] border-t-[1px] border-solid border-white my-[20px] mx-[40px]">
         <div id="projectHeading"
-            class="border-2 border-solid border-blue-950 text-white font-sans font-bold text-[40px] text-center m-2">
+            class="border-2 border-solid border-blue-950 text-white font-sans font-bold text-[50px] text-center m-2">
             Projects
         </div>
         <div id="projectBox" class="grid grid-cols-2 gap-y-[60px] border-2 border-solid border-blue-950 m-2 py-8">
@@ -111,7 +153,7 @@
                         class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
                     <div id="project1Name"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        Digital Clock
+                        Digital Clock <span class="font-medium">(Responsive)</span>
                     </div>
                     <div id="project1Stack"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
@@ -125,10 +167,10 @@
                     <div id="project1links"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
                         <a href="https://divyanshusgit.github.io/DigitalClock/" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
                             Out</a>
                         <a href="https://github.com/divyanshusgit/DigitalClock" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
                             Code</a>
                     </div>
                 </div>
@@ -140,7 +182,7 @@
                         class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
                     <div id="project1Name"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        Stopwatch
+                        Stopwatch <span class="font-medium">(Responsive)</span>
                     </div>
                     <div id="project1Stack"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
@@ -154,10 +196,10 @@
                     <div id="project1links"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
                         <a href="https://divyanshusgit.github.io/Stopwatch/" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
                             Out</a>
                         <a href="https://github.com/divyanshusgit/Stopwatch" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
                             Code</a>
                     </div>
                 </div>
@@ -169,7 +211,7 @@
                         class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
                     <div id="project1Name"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        BMI Calculator
+                        BMI Calculator <span class="font-medium">(Responsive)</span>
                     </div>
                     <div id="project1Stack"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
@@ -183,10 +225,10 @@
                     <div id="project1links"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
                         <a href="https://divyanshusgit.github.io/BMICalculator/" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
                             Out</a>
                         <a href="https://github.com/divyanshusgit/BMICalculator" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
                             Code</a>
                     </div>
                 </div>
@@ -198,7 +240,7 @@
                         class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
                     <div id="project1Name"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        Age Calculator
+                        Age Calculator <span class="font-medium">(Responsive)</span>
                     </div>
                     <div id="project1Stack"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
@@ -212,10 +254,10 @@
                     <div id="project1links"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
                         <a href="https://divyanshusgit.github.io/AgeCalculator/" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
                             Out</a>
                         <a href="https://github.com/divyanshusgit/AgeCalculator" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
                             Code</a>
                     </div>
                 </div>
@@ -227,7 +269,7 @@
                         class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
                     <div id="project1Name"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        Stone Paper Scissor Game
+                        Stone Paper Scissor Game <span class="font-medium">(Responsive)</span>
                     </div>
                     <div id="project1Stack"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
@@ -241,10 +283,10 @@
                     <div id="project1links"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
                         <a href="https://divyanshusgit.github.io/StonePaperScissor/" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
                             Out</a>
                         <a href="https://github.com/divyanshusgit/StonePaperScissor" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
                             Code</a>
                     </div>
                 </div>
@@ -256,7 +298,7 @@
                         class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
                     <div id="project1Name"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        Guess the Number Game
+                        Guess the Number Game <span class="font-medium">(Responsive)</span>
                     </div>
                     <div id="project1Stack"
                         class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
@@ -264,22 +306,246 @@
                     </div>
                     <div id="project1Description"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
-                        A simple and sweet game in which you get 5 chances to the guess the randomly selected number
+                        A simple and sweet guessing game in which you get 5 chances to the guess the randomly selected
+                        number
                         between 0 and 10.
                     </div>
                     <div id="project1links"
                         class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
                         <a href="https://divyanshusgit.github.io/GuessTheNumberGame/" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
                             Out</a>
                         <a href="https://github.com/divyanshusgit/GuessTheNumberGame" target="_blank"
-                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[3px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-100 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
+                            Code</a>
+                    </div>
+                </div>
+            </div>
+            <div id="project1Grid" class="border-2 border-solid border-blue-950 flex items-center justify-center">
+                <div id="project1Box"
+                    class="border-2 border-solid border-blue-700 bg-blue-700 w-[550px] h-[600px] flex flex-col justify-center items-center rounded-[8px]">
+                    <img src="chatGPT_UI_Clone_Image.png" alt="guess_the_number_game_image"
+                        class=" rounded-[8px] w-[500px] h-[300px] border-2 border-solid border-blue-700 mb-[10px]">
+                    <div id="project1Name"
+                        class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
+                        ChatGPT's UI Clone <span class="font-medium">(UnResponsive)</span>
+                    </div>
+                    <div id="project1Stack"
+                        class="text-white font-sans font-bold text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
+                        Stack: HTML CSS
+                    </div>
+                    <div id="project1Description"
+                        class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
+                        A user interface clone of OpenAI's ChatGPt. It will be responsive soon.
+                    </div>
+                    <div id="project1links"
+                        class="text-white font-sans text-[23px] border-2 border-solid border-blue-700 pl-[5px] w-[500px]">
+                        <a href="https://divyanshusgit.github.io/GPT-UI-Clone/" target="_blank"
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[140px] rounded-[3px]">Check
+                            Out</a>
+                        <a href="https://github.com/divyanshusgit/GPT-UI-Clone" target="_blank"
+                            class="text-white my-2 mr-2 inline-block font-sans text-[23px] border-[2px] border-solid border-white p-[4px] px-[10px] text-center hover:bg-white hover:text-blue-500 font-bold transition-all duration-200 active:text-blue-900 w-[170px] rounded-[3px]">Source
                             Code</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="contactSection"
+        class="px-2 pt-[60px] pb-[120px] border-t-[1px] border-solid border-white my-[20px] mx-[40px]">
+        <div id="contactHeading"
+            class="border-2 border-solid border-blue-950 text-white font-sans font-bold text-[50px] text-center m-2">
+            Contact
+        </div>
+        <div id="contactBox"
+            class="px-16 pt-4 border-2 border-solid border-blue-950 text-white font-sans font-bold text-[23px] m-2 tracking-wide">
+            Feel free to explore and test my projects. Your valuable feedbacks and suggestions are wholeheartedly
+            welcomed, they will help me refine my projects. <br> <br> I am always eager to connect with fellow
+            developers and like-minded folks. Whether you have a question, an idea to discuss, or just want to say
+            hello, I'd be glad to hear from you. <br> <br> Feel free to reach out via e-mail or connect with me on
+            LinkedIn! <br> <br> <i class="fa-solid fa-envelope text-[25px]" style="color: #ffffff;"></i> &nbsp;
+            1506divyanshu@gmail.com <br> <i class="fa-solid fa-link text-[25px]" style="color: #ffffff;"></i> &nbsp; <a target="_blank"
+                href="https://www.linkedin.com/in/divyanshu-sahu-383510235/"
+                class="hover:text-blue-500 underline decoration-2 underline-offset-[4px]">LinkedIn Porfile</a>
+        </div>
+    </div>
+
+    <footer class="text-white body-font bg-blue-700">
+        <div
+            class="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <!-- <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"> -->
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2"
+                        class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg> -->
+                    <span class="inline-block text-center font-bold text-[30px] border-2 border-solid border-blue-700 w-[300px]">&lt;devPortfolio&sol;&gt;</span>
+                </a>
+                <p class=" w-[300px] font-medium text-[20px] text-white border-2 border-solid border-blue-700 text-center">Divyanshu's Portfolio Website</p>
+            </div>
+            <div class="flex-grow mx-[40px] flex justify-around flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center border-2 border-solid border-blue-700">
+                <div class="lg:w-[150px] flex flex-col items-center md:w-1/2 w-full px-4 border-2 border-solid border-blue-700">
+                    <h2 class="title-font font-bold text-white tracking-wide text-[23px] border-2 border-solid border-blue-700 w-[110px] text-center">MENU</h2>
+                    <nav class="list-none mb-10 border-2 border-solid border-blue-700 w-[110px] text-center">
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" href="#aboutSection">About</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" href="#techStackSection">About</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" href="#projectSection">Projects</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" href="#contactSection">Contact</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-[150px] flex flex-col items-center md:w-1/2 w-full px-4 border-2 border-solid border-blue-700">
+                    <h2 class="title-font font-bold text-white tracking-wide text-[23px] border-2 border-solid border-blue-700 w-[130px] text-center">PROJECTS</h2>
+                    <nav class="list-none mb-10 border-2 border-solid border-blue-700 w-[130px] text-center">
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" target="_blank" href="https://divyanshusgit.github.io/DigitalClock/">Digital Clock</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" target="_blank" href="https://divyanshusgit.github.io/Stopwatch/">Stopwatch</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" target="_blank" href="https://divyanshusgit.github.io/AgeCalculator/">Age Calculator</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" target="_blank" href="https://divyanshusgit.github.io/BMICalculator/">BMI Calculator</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" href="https://divyanshusgit.github.io/GPT-UI-Clone/">ChatGPT's UI</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-[190px] flex flex-col items-center md:w-1/2 w-full px-4 border-2 border-solid border-blue-700">
+                    <h2 class="title-font font-bold text-white tracking-wide text-[23px] border-2 border-solid border-blue-700 w-[170px] text-center">Games</h2>
+                    <nav class="list-none mb-10 border-2 border-solid border-blue-700 w-[170px] text-center">
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" target="_blank" href="https://divyanshusgit.github.io/StonePaperScissor/">Stone Paper Scissor</a>
+                        </li>
+                        <li>
+                            <a class="text-white font-medium decoration-[1px] underline-offset-[3px] hover:underline" target="_blank" href="https://divyanshusgit.github.io/GuessTheNumberGame/">Guess The Number</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-[260px] flex flex-col items-center md:w-1/2 w-full px-4 border-2 border-solid border-blue-700">
+                    <h2 class="title-font font-bold text-white tracking-wide text-[23px] border-2 border-solid border-blue-700 w-[240px] text-center">E-MAIL</h2>
+                    <nav class="list-none mb-10 border-2 border-solid border-blue-700 w-[240px] text-center">
+                        <li class="text-white font-medium">
+                            1506divyanshu@gmail.com
+                        </li>
+                    </nav>
+                </div>
+                <!-- <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div> -->
+                <!-- <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div> -->
+                <!-- <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div> -->
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-blue-700 text-[18px] tracking-wide font-bold text-center sm:text-left">Copyright © 2023 BetterWeb Tecnologies Pvt Ltd. All Rights Reserved
+                    <!-- <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1"
+                        target="_blank">@knyttneve</a> -->
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+
+                    <!-- <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a> -->
+                    <a target="_blank" href="https://www.linkedin.com/in/divyanshu-sahu-383510235/">
+                        <i class="fa-brands fa-linkedin text-[28px] text-blue-700 mx-[5px] hover:text-blue-950 transition-all duration-200"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/divyanshusgit">
+                        <i class="fa-brands fa-square-github text-blue-700 mx-[5px] text-[28px] hover:text-blue-950 transition-all duration-200"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
